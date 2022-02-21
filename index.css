@@ -1,0 +1,44 @@
+body {
+background-color: black;
+}
+
+.a {
+	color: white;
+	padding-bottom: 50px;
+
+}
+.b {
+	color: white;
+	padding-bottom: 50px;
+}
+.b1 {
+	
+}
+
+.c {
+	color: white;
+	padding-bottom: 50px;
+}
+
+.d {
+	color: white;
+	padding-bottom: 50px;
+}
+
+Img {
+height:100% ;
+max-width:100%;
+}
+
+.g{
+	height: 50px;
+	width: 70px;
+	position: fixed;
+	bottom: 0 ;
+	right: 0;
+}
+
+
+
+
+
