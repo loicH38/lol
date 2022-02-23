@@ -2,25 +2,48 @@ body {
 background-color: black;
 }
 
-.a {
-	color: white;
-	padding-bottom: 50px;
+ .a{
 
+ 	height:30px ;
+ 	width: 250px;
 }
+
 .b {
+	font-size: 50px;
+	font-family: verdana;
 	color: white;
 	padding-bottom: 50px;
 }
 .b1 {
-	
+	padding-bottom: 50px;
 }
 
 .c {
+	font-family: verdana;
+	font-size: 30px;
 	color: white;
 	padding-bottom: 50px;
 }
 
 .d {
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+	padding-bottom: 50px;
+}
+
+.e {
+	font-family: verdana;
+	font-size: 30px;
+	float: left;
+	padding-left: 475px;
+	color: white;
+	padding-bottom: 50px;
+}
+
+.f {
+	font-family: verdana;
+	font-size: 30px;
 	color: white;
 	padding-bottom: 50px;
 }
@@ -34,9 +57,10 @@ max-width:100%;
 	height: 50px;
 	width: 70px;
 	position: fixed;
-	bottom: 0 ;
+	bottom: 10px ;
 	right: 0;
 }
+
 
 
 
