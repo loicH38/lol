@@ -1,7 +1,13 @@
-$.get("./getProfil.php?name=technet")
+$.get("./getProfil.php?name=NeoRocklee")
 .done( function(data){
 	profil = jQuery.parseJSON(data);
-	$( "#result" ).text(profil.name );
 	console.log(profil);
-	console.log(profil.name);
+	$( ".b" ).text(profil.name);
+	$("#Icon").attr("src","http://ddragon.leagueoflegends.com/cdn/12.4.1/img/profileicon/"+profil.profileIconId+".png");
+	$( ".c" ).text(profil.summonerLevel);
+
+
+	
+	console.log(profil.profileIconId);
 });
+
