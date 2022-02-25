@@ -1,5 +1,4 @@
-$.get("./getProfil.php?name=NeoRocklee")
-.done( function(data){
+$.get("./getProfil.php?name=NeoRocklee").done( function(data){
 	profil = jQuery.parseJSON(data);
 	console.log(profil);
 	$( ".b" ).text(profil.name);
@@ -7,7 +6,15 @@ $.get("./getProfil.php?name=NeoRocklee")
 	$( ".c" ).text(profil.summonerLevel);
 
 
-	
 	console.log(profil.profileIconId);
+});
+
+
+$( document ).ready(function() {
+
+	$(".a").click(function(){
+		pseudo=$(".a1").val();
+		console.log("pseudo:"+pseudo);
+	});
 });
 

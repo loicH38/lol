@@ -4,7 +4,16 @@ background-color: black;
 
  .a{
  	height:30px ;
- 	width: 250px;
+ 	width: 30px;
+ 	position: relative;
+ 	top: 15px;
+}
+
+.a1{
+	height:25px;
+	width: 250px;
+	position: relative;
+	top: 15px;
 }
 
 .b {
@@ -12,6 +21,7 @@ background-color: black;
 	font-family: verdana;
 	color: white;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 .b1 {
 	padding-bottom: 50px;
