@@ -1,4 +1,8 @@
-$.get("./getProfil.php?name=NeoRocklee").done( function(data){
+
+pseudo="NeoRocklee";
+function profil(){
+	
+$.get("./getProfil.php?name="+pseudo).done( function(data){
 	profil = jQuery.parseJSON(data);
 	console.log(profil);
 	$( ".b" ).text(profil.name);
@@ -15,6 +19,7 @@ $( document ).ready(function() {
 	$(".a").click(function(){
 		pseudo=$(".a1").val();
 		console.log("pseudo:"+pseudo);
+		profil();
 	});
 });
 
